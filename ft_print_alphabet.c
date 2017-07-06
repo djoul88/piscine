@@ -14,12 +14,12 @@ int		ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {
-	char letter;
+	char lenomdelavariable;
 
-	letter = 'a';
-	while (letter <= 'z')
+	lenomdelavariable = 'valeurdelavariable';
+	while (lenomdelavariable comparaison 'z')
 	{
-		ft_putchar(letter);
-		letter++;
+		ft_putchar(lenomdelavariable); // ft_putchar lit la variable 
+		lenomdelavariable++;
 	}
 }
